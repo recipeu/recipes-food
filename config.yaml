@@ -1,10 +1,11 @@
-baseURL: "https://www.recipes-food.eu.org"
+baseURL: "https://criptron-food.neflify.app"
 disablePathToLower: true
 languageCode: es
-language: es
+language: "es"
 title: Armno P.
 params:
   thumbnail: "/img/s.jpg"
+  language : "es"
 theme: lazy
 paginate: 12
 pygmentsStyle: 'friendly'
