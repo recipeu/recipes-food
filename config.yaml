@@ -2,10 +2,9 @@ baseURL: "https://criptron-food.netlify.app"
 disablePathToLower: true
 languageCode: es
 language: "es"
-title: Armno P.
+title: Criptron
 params:
   thumbnail: "/img/s.jpg"
-  language : "es"
 theme: lazy
 paginate: 12
 pygmentsStyle: 'friendly'

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="{{ .Params.language }}">
+<html class="no-js" lang="es">
 {{ partial "head.html" . }}
 <body>
   {{ partial "skip-to-content.html" . }}
@@ -17,12 +17,15 @@
           <strong>{{ .PublishDate.Format "January 2, 2006" }}</strong>
         </time>
       </header>
+<!--
 {{ $thumbnaily :=  .Params.thumbnail }}
-{{ $thumbnail := replace $thumbnaily ".jpg" ".webp" }}
+{{ $thumbnail2 := replace $thumbnaily ".jpg" ".webp" }}
+{{ $thumbnail := replace $thumbnail2 "/680x482cqb70/" "/780x582cq60/" }}
 <img data-src="{{ $thumbnail }}" class="lazyload" alt="{{.Title }}" width="680" height="480" style="width:100%; border: none;
-  border-radius:16px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);">
-
+  border-radius:16px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);"> -->
+<div class="artikel">
 {{ .Content }}
+</div>
     </article>
 
     {{ if eq .Section "post" }}
