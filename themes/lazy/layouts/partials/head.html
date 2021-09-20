@@ -16,7 +16,7 @@
   {{ partial "style.html" .}}
 
   {{ with .OutputFormats.Get "RSS" }}
-  <link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="RSS">
+  <link rel="alternate" href="{{ .RelPermalink | absURL }}" type="application/rss+xml" title="RSS">
   {{ end }}
 
   {{ hugo.Generator }}
@@ -76,7 +76,7 @@
   {{ end }}
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | absURL }}" type="image/x-icon">
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">

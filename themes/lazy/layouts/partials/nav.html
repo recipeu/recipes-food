@@ -16,32 +16,32 @@
   <nav class="menu">
     <ul class="nav-list no-list-style">
       <li class="nav-item nav-item-mobile-logo">
-        <a href="/" class="nav-link ctivee">
+        <a href="{{ "/" | absURL }}" class="nav-link ctivee">
           About
         </a>
       </li>
       <li class="nav-item">
-        <a href="/post/" class="nav-link {{ if eq .pageName "post" }}ctivee{{ end }}">
+        <a href="{{ "/post" | absURL }}" class="nav-link {{ if eq .pageName "post" }}ctivee{{ end }}">
           Recetas
         </a>
       </li>
       <li class="nav-item">
-        <a href="/privacy" class="nav-link ctivee">
+        <a href="{{ "/privacy" | absURL }}" class="nav-link ctivee">
           Privacy
         </a>
       </li>
       <li class="nav-item">
-        <a href="/contact" class="nav-link ctivee">
+        <a href="{{ "/contact" | absURL }}" class="nav-link ctivee">
           Contact
         </a>
       </li>
       <li class="nav-item">
-        <a href="/dmca" class="nav-link ctivee">
+        <a href="{{ "/dmca" | absURL }}" class="nav-link ctivee">
           DMCA
         </a>
       </li>
       <li class="nav-item">
-        <a href="/copyright" class="nav-link ctivee">
+        <a href="{{ "/copyright" | absURL }}" class="nav-link ctivee">
           Copyright
         </a>
       </li>
