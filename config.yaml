@@ -1,4 +1,4 @@
-baseURL: "https://criptron-food.neflify.app"
+baseURL: "https://criptron-food.netlify.app"
 disablePathToLower: true
 languageCode: es
 language: "es"
