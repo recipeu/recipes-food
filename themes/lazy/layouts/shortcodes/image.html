@@ -1,0 +1,18 @@
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{ if .Get "caption" }}
+<figure class="media">
+{{ else }}
+<div class="media">
+{{ end }}
+  <img loading="lazy" decoding="async"
+    {{ with .Get "width"}}width="{{.}}"{{ end }}
+    src="{{ $src.RelPermalink }}"
+    {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+  >
+  {{ if .Get "caption" }}
+  <figcaption class="media-caption {{ with .Get "align-caption"}}{{.}}{{ end }}">{{ .Get "caption" }}</figcaption>
+</figure>
+{{ else }}
+</div>
+{{ end }}

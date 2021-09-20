@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ .Params.language }}">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "skip-to-content.html" . }}
+  <header class="site-header">
+    {{ partial "nav.html" (dict "context" . "pageName" "post") }}
+  </header>
+  <div class="content content--home">
+
+    <main id="main" class="main-content main--home">
+
+      <div class="latest-articles">
+        <h2 class="home-blog-title">
+          Blog
+          <span class="page-number">/ Page {{ .Paginator.PageNumber }}</span>
+        </h2>
+        <ul class="home-articles">
+          {{ $paginator := .Paginate (where .Pages "section" "resep") }}
+          {{ range where $paginator.Pages "Type" "post" }}
+          <article class="post-teaser">
+            <div class="post-teaser__thumbnail {{ if not .Params.image }}no-thumbnail{{ end }}">
+              {{ if .Params.image }}{{ $thumbnail :=  .Params.image }}
+              <a class="post-link" href="{{ .Permalink }}">
+                <img loading="lazy" src="{{ $thumbnail }}" alt="{{ .Title }}" width="680" height="480">
+              </a>
+             {{ end }}
+            </div>
+             
+            <div class="post-teaser__content">
+              <h3 class="post-title">
+                <a class="post-link" href="{{ .Permalink }}">
+                  {{ .Title }}
+                </a>
+              </h3>
+              <div class="publish-time">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+              </div>
+              <p>
+              {{ .Params.description }}
+              </p>
+            </div>
+          </article>
+
+          {{ end }}
+          </ul>
+          <!-- Hugo's default pagination template. -->
+          {{ template "_internal/pagination.html" . }}
+        </div>
+    </main>
+  </div>
+{{ partial "footer.html" . }}
+  {{ partial "bottom-script.html" . }}
+</body>
+</html>

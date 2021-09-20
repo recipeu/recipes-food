@@ -1,0 +1,138 @@
+.mobile-menu,
+.close-mobile-menu {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+
+  svg {
+    margin: 0;
+  }
+
+  &:focus,
+  &:active {
+    outline: 1px solid hsl(0, 0%, 0%);
+  }
+
+  @include medium() {
+    display: none;
+  }
+}
+
+.close-mobile-menu {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  @include medium() {
+    display: none;
+  }
+}
+
+.nav {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
+
+  background-color: white;
+  .free-layout & {
+    background-color: transparent;
+  }
+
+  .menu-active & {
+    transform: translate3d(0, 0, 0);
+  }
+
+  @include medium() {
+    position: static;
+    transform: none;
+    border-left: 0;
+    padding-top: 0;
+    width: auto;
+    margin-left: $bottom-space;
+  }
+
+  .menu {
+    margin-top: $bottom-space * 2;
+    @include medium() {
+      margin: 0;
+    }
+  }
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+
+  flex-direction: column;
+
+  @include medium() {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+.nav-item {
+  text-align: center;
+  margin-bottom: $bottom-space;
+  @include medium() {
+    padding: 0 1em;
+    margin-bottom: 0;
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: $heading-fonts;
+  line-height: 2;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+
+  @include medium() {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  &:hover {
+    .icon {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.nav-link.active {
+  color: #000;
+  font-weight: 700;
+}
+
+.icon {
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  transition: transform 0.1s ease-out;
+}
+
+.logo-image {
+  margin-bottom: 0;
+}

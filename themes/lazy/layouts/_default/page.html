@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Params.language }}{{ . }}{{ else }}es{{end}}">
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "skip-to-content.html" . }}
+  <header class="site-header">
+    {{ partial "nav.html" (dict "context" . "pageName" .Params.activeMenu) }}
+  </header>
+  <div class="content content--home">
+    <main id="main" class="main-content main-content--no-sidebar">
+      <article>
+        <header>
+          <h1 class="page-title">{{ .Title }}</h1>
+        </header>
+
+        {{ .Content }}
+      </article>
+      {{ partial "comments.html" }}
+    </main>
+  </div>
+{{ partial "footer.html" . }}
+  {{ partial "bottom-script.html" . }}
+</body>
+
+</html>

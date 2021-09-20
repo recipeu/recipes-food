@@ -1,0 +1,4 @@
+{{ $thumbnaily := .Destination | safeURL }}
+{{ $thumbnail := replace $thumbnaily ".jpg" ".webp" }}
+<img class="lazyload" data-src="{{ $thumbnail }}" alt="{{ .PlainText }}" width="680" height="480" style="width:100%; border: none;
+  border-radius:16px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);">

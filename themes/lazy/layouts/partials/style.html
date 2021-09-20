@@ -1,0 +1,6 @@
+<!-- critical css should be here -->
+{{ with resources.Get "css/lazy.scss" | toCSS | minify }}
+<style>{{ .Content | safeCSS }}</style>
+{{ end }}
+
+

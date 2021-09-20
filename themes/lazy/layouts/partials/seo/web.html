@@ -1,0 +1,70 @@
+{{ if .IsHome -}}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>
+{{ else if .IsPage }}
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
+{{ range $index, $element := split $url "/" }}
+{{ $.Scratch.Add "path" $element }}
+{{ $.Scratch.Add "path" "/" }}
+{{ if ne $element "" }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+{{ end }}
+{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
+        "@type": "ListItem",
+        "position": {{ .position }},
+        "item": {
+          "@id": "{{ .url }}",
+          "name": "{{ .name }}"
+        }
+    }{{ end }}]
+}
+</script>
+{{ end }}
+
+{{ if eq .Params.future true }}
+{{ $author :=  or (.Params.author) (.Site.Author.name) }}
+{{ $org_name :=  .Site.Title }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/", 
+    "@type": "Recipe", 
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    "image": "{{ .Params.image }}",
+    "description": "{{ .Params.description }}",
+    "keywords": "{{ .Params.katakunci }}",
+	"recipeCuisine": "{{ .Params.recipecuisine }}",
+	"prepTime": "{{ .Params.preptime }}",
+    "cookTime": "{{ .Params.cooktime }}",
+	"recipeYield": "{{ .Params.recipeyield }}",
+    "recipeCategory": "{{ .Params.recipecategory }}",
+	"datePublished": "{{ dateFormat "2006-01-02" .Date }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ $author }}"
+    },
+    "recipeIngredient": [ {{ range $index, $ingredients := .Params.recipeingredient }}{{ if $index }}, {{ end }}"{{ $ingredients }}" {{ end }} ],
+    "recipeInstructions": [{{ range $index, $instructions := .Params.recipeinstructions }}{{ if $index }},
+        {{ end }}{
+        "@type": "HowToStep",
+        "text": "{{ $instructions }}"
+        }{{ end }}]
+}
+</script>
+{{ end }}

@@ -1,0 +1,33 @@
+{{ if eq .Section "post" }}
+{{ $author :=  or (.Params.author) (.Site.Author.name) }}
+{{ $org_name :=  .Site.Title }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/", 
+    "@type": "Recipe", 
+    "name": "{{ .Title | safeJS }}",
+    "headline": "{{ .Title | safeJS }}",
+    "image": "{{ .Params.image }}",
+    "description": "{{ .Params.description }}",
+    "keywords": "{{ .Params.katakunci }}",
+	"recipeCuisine": "{{ .Params.recipecuisine }}",
+	"prepTime": "{{ .Params.preptime }}",
+    "cookTime": "{{ .Params.cooktime }}",
+	"recipeYield": "{{ .Params.recipeyield }}",
+    "recipeCategory": "{{ .Params.recipecategory }}",
+	"datePublished": "{{ dateFormat "2006-01-02" .Date }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ $author }}"
+    },
+    "recipeIngredient": [ {{ range $index, $ingredients := .Params.recipeingredient }}{{ if $index }}, {{ end }}"{{ $ingredients }}" {{ end }} ],
+    "recipeInstructions": [{{ range $index, $instructions := .Params.recipeinstructions }}{{ if $index }},
+        {{ end }}{
+        "@type": "HowToStep",
+        "text": "{{ $instructions }}"
+        }{{ end }}]
+}
+</script>
+{{ end }}
+
+    

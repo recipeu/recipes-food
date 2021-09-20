@@ -1,0 +1,72 @@
+baseURL: "https://www.recipes-food.eu.org"
+disablePathToLower: true
+languageCode: es
+language: es
+title: Armno P.
+params:
+  thumbnail: "/img/s.jpg"
+theme: lazy
+paginate: 12
+pygmentsStyle: 'friendly'
+pygmentsCodefences: true
+ignoreFiles:
+  - '_drafts'
+blackfriday:
+  extensionsmask:
+    - noIntraEmphasis
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+  blackFriday:
+    angledQuotes: false
+    footnoteAnchorPrefix: ''
+    footnoteReturnLinkContents: ''
+    fractions: true
+    hrefTargetBlank: true
+    latexDashes: true
+    nofollowLinks: true
+    noreferrerLinks: true
+    plainIDAnchors: true
+    skipHTML: false
+    smartDashes: true
+    smartypants: true
+    smartypantsQuotesNBSP: false
+    taskLists: true
+    extensionsmask:
+    - noIntraEmphasis
+
+
+
+
+
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: date
+      weight: 10
+enableGitInfo: false
+enableRobotsTXT: true
+timeout: 30000
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

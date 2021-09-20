@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ .Params.language }}">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "skip-to-content.html" . }}
+  <header class="site-header">
+    {{ partial "nav.html" (dict "context" . "pageName" "post") }}
+  </header>
+  <div class="content">
+
+  <main id="main" class="main-content">
+    <article class="single">
+      <header class="article-header">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <time class="publish-time-article" datetime="{{ .PublishDate }}">
+          Published on
+          <strong>{{ .PublishDate.Format "January 2, 2006" }}</strong>
+        </time>
+      </header>
+{{ $thumbnaily :=  .Params.thumbnail }}
+{{ $thumbnail := replace $thumbnaily ".jpg" ".webp" }}
+<img data-src="{{ $thumbnail }}" class="lazyload" alt="{{.Title }}" width="680" height="480" style="width:100%; border: none;
+  border-radius:16px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);">
+
+{{ .Content }}
+    </article>
+
+    {{ if eq .Section "post" }}
+    <div class="share-article">
+      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+        class="btn-share btn-share--twitter"
+        target="_blank" rel="noopener">
+        Share on Twitter
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+        class="btn-share btn-share--facebook"
+        target="_blank" rel="noopener">
+        Share on Facebook
+      </a>
+    </div>
+    {{ partial "related.html" . }}
+    {{ partial "comments.html" . }}
+    {{ end }}
+  </main>
+</div>
+{{ partial "footer.html" . }}
+  {{ partial "bottom-script.html" . }}
+</body>
+</html>

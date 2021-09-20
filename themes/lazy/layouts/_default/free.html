@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+{{ partial "head.html" . }}
+<body class="free-layout">
+  {{ partial "skip-to-content.html" . }}
+
+  <div class="wrapper">
+    <!-- <div class="parallax" style="background-image: url('{{ .Page.Params.cover }}')"></div> -->
+    <div class="free-hero" style="background-image: url('{{ .Page.Params.cover }}')">
+      <!-- <img src="{{ .Page.Params.cover }}" class="no-medium-zoom" alt="{{ .Title }} cover" style="position: absolute;top: 0; left: 0; right: 0;bottom: 0"> -->
+      <header class="site-header">
+        {{ partial "logo.html" (dict "fill" "#fff") }}
+
+        <nav class="nav">
+          <ul class="nav-list no-list-style">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/uses/" class="nav-link">Uses</a>
+            </li>
+            <li class="nav-item">
+              <a href="/post/" class="nav-link active">Articles</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <h1 class="page-title">{{ .Title }}</h1>
+    </div>
+
+  <div class="content free-layout-content" style="background-color: white;">
+    <main id="main" class="main-content">
+      <article class="single">
+        <header>
+          <time class="publish-time-article" datetime="{{ .PublishDate }}">
+            Published on
+            <strong>{{ .PublishDate.Format "January 2, 2006" }}</strong>
+          </time>
+        </header>
+
+        {{ .Content }}
+      </article>
+
+      {{ if eq .Section "post" }}
+      <div class="share-article">
+        <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+          class="btn-share btn-share--twitter"
+          target="_blank" rel="noopener">
+          Share on Twitter
+        </a>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+          class="btn-share btn-share--facebook"
+          target="_blank" rel="noopener">
+          Share on Facebook
+        </a>
+      </div>
+      {{ partial "related.html" . }}
+      {{ partial "comments.html" . }}
+      {{ end }}
+    </main>
+  </div>
+
+</div>
+{{ partial "footer.html" . }}
+
+  {{ partial "bottom-script.html" . }}
+</body>
+</html>

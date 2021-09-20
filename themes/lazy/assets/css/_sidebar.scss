@@ -1,0 +1,41 @@
+.post-aside {
+  font-size: 1rem;
+}
+
+.post-aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section: Sidebar */
+.author-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author {
+  font-size: 0.75rem;
+  line-height: 26px;
+}
+
+.author-name {
+  font-weight: bold;
+  color: $black;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.author-name::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 4px;
+  background-color: $red;
+  bottom: -1.6rem;
+  left: 0;
+  transform: translateX(-25%);
+}

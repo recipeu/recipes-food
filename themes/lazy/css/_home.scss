@@ -1,0 +1,125 @@
+.home-blog-title {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.home-blog-title .page-number {
+  color: $gray;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+.home-articles {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Section: Hero section on home page */
+.hero {
+  @include container();
+
+  @include medium() {
+    max-width: 1300px;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+  }
+}
+.hero-text {
+  margin: auto;
+}
+
+.hero-main-text {
+  line-height: 1;
+  margin-bottom: 0.5em;
+  font-size: 2.5rem;
+
+  @include medium() {
+    line-height: 0.6;
+    font-size: 5rem;
+  }
+
+  em {
+    color: $red;
+    font-style: normal;
+  }
+}
+
+.hero-main-text br {
+  line-height: 0;
+}
+
+.home-page-photo {
+  display: none;
+  text-align: center;
+  margin-top: 52px;
+  @include medium() {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+.home-page-photo img {
+  width: 60%;
+  min-width: 300px;
+}
+
+.hero-sub-text {
+  color: $dark-gray;
+  @include medium() {
+    width: 50%;
+  }
+}
+
+.about {
+  @include container();
+  margin-top: 76px;
+  margin-bottom: 120px;
+}
+
+.about-hi {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+
+  @include medium() {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+
+.emoji-of-a-wave {
+  color: #000;
+}
+
+.about-name,
+.about-iam {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+
+  @include medium() {
+    font-size: 1.67rem;
+    line-height: 36px;
+  }
+}
+
+.about-details {
+  margin-top: 90px;
+
+  em {
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.title-contact {
+  font-size: 1.2rem;
+}
