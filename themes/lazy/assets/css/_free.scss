@@ -197,3 +197,12 @@
     border-bottom: dashed 1.3px silver;
     list-style-type: decimal-leading;
 }
+
+
+.turbo-progress-bar {
+  visibility: hidden;
+}
+.turbo-progress-bar {
+  height: 5px; /*ukuran progress bar*/
+  background-color: yellow; /*warna progress bar*/
+}
