@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap');
 // colorscheme from: https://coolors.co/3f5261-d9dde1-0c120c-c20114-c7d6d5
 $black: #0c120c;
 $red: #c20114;
@@ -12,9 +13,9 @@ $gold: gold;
 $twitter: #1da1f2;
 $facebook: #3b5998;
 
-$system-fonts: 'Poppins', sans-serif;
+$system-fonts: 'Lato', sans-serif;
 $monospace-font: 'Poppins', sans-serif;
-$heading-fonts: 'Be Vietnam Pro', sans-serif;
+$heading-fonts: 'Poppins', sans-serif;
 $base-font-size: 12px;
 
 $ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
@@ -296,4 +297,4 @@ $bottom-space: 26px;
 }
 
 
-@import './free';
+@import '/free';

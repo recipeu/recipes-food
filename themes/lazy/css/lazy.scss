@@ -294,11 +294,5 @@ width:100%; border: none;
 .lazyloading {
     opacity: 0;
 }
-.lazyloaded {
-    opacity: 1;
-    transition: opacity 300ms;
-}
 
-article.artikel {font-size: 10px};
-
-@import './free';
+@import '/free'
