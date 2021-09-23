@@ -1,7 +1,7 @@
-{{ if isset .Site.Params "tags" }}
+{{ with .Site.Params.tags }}
 {{ $related := .Site.RegularPages.Related . | first 8 | uniq }}
 {{ with $related | uniq }}
-<h4>Related Posts</h4>
+<h3>Related Posts</h3>
 <ul class="related-posts no-list-style">
   {{ range . }}
   <li class="related-posts__item">
@@ -9,7 +9,8 @@
       <div class="related-posts__thumbnail">
 {{ $thumbnaily :=  .Params.thumbnail }}
 {{ $thumbnail := replace $thumbnaily ".jpg" ".webp" }}
-<img data-src="{{ $thumbnail }}" class="lazyload" alt="{{.Title }}" width="680" height="480">
+<img data-src="{{ $thumbnail }}" class="lazyload" alt="{{.Title }}" width="680" height="480" style="width:100%; border: none;
+  border-radius:12px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);">
       </div>
     <div class="related-posts__title">
       {{ .Title }}
@@ -22,20 +23,21 @@
 {{ end }}
 
 {{ else }}
-{{ $related := .Site.RegularPages | first 8 | uniq }}
+{{ $related := shuffle .Site.RegularPages | first 8 | uniq }}
 {{ with $related | uniq }}
-<h4>Related Posts</h4>
+<h3>Related Posts</h3>
 <ul class="related-posts no-list-style">
   {{ range . }}
   <li class="related-posts__item">
     <a href="{{ .Permalink }}">
-      <div class="related-posts__thumbnail">
+      <div class="related-posts__thumbnail" style="width:100%; border:none;
+  border-radius:12px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);">
 {{ $thumbnaily :=  .Params.thumbnail }}
 {{ $thumbnail := replace $thumbnaily ".jpg" ".webp" }}
 <img data-src="{{ $thumbnail }}" class="lazyload" alt="{{.Title }}" width="680" height="480" style="width:100%; border: none;
   border-radius:12px; box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.16);">
       </div>
-    <div class="related-posts__title">
+    <div class="related-posts__title"   >
       {{ .Title }}
     </div>
     </a>

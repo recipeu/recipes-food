@@ -21,7 +21,8 @@
 
   {{ hugo.Generator }}
   <meta name="theme-color" content="#0c120c">
-
+ {{ $hom := .Site.BaseURL }}
+  <meta name="turbo-root" content="{{ $hom }}">
   <!-- open graph meta tags -->
   <meta property="og:title" content="{{ .Title }}">
   {{ with .Page.Params.description }}
@@ -43,7 +44,7 @@
   <meta property="og:image:alt" content="{{ .Title }}">
 
   <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:site_name" content="armno.in.th">
+  <meta property="og:site_name" content="">
   <meta property="og:type" content="article">
 
   <meta property="fb:admins" content="1007588651">
