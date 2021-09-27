@@ -16,7 +16,7 @@ ol {
   margin-top: 0;
   margin-bottom: $bottom-space;
 
-  [lang="th"] & {
+  [lang="es"] & {
     line-height: 1.6;
   }
 }
@@ -175,7 +175,7 @@ small {
 @include medium() {
   // perfect-fifth scale for desktop
   h1 {
-    font-size: 3.375rem;
+    font-size: 1.953rem;
   }
 
   h2 {
@@ -344,7 +344,7 @@ del {
 
 /* hugo-generated footnote */
 .footnote {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .message--warning {
@@ -417,4 +417,30 @@ h3:hover > .heading-anchor {
 
 .footnotes {
   font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*  footer   */
+footer {
+    
+    
+    font-size: 14px;
+    bottom: 0;
+
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
 }
