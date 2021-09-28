@@ -34,7 +34,7 @@ tags:
 
 katakunci: macarrones con atn 
 nutrition: 268 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT48M"
 recipeyield: "1"

@@ -32,7 +32,7 @@ tags:
 
 katakunci: canaps de patata 
 nutrition: 218 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT38M"
 cooktime: "PT34M"
 recipeyield: "4"

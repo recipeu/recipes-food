@@ -35,7 +35,7 @@ tags:
 
 katakunci: pizza de atny 
 nutrition: 268 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT22M"
 cooktime: "PT46M"
 recipeyield: "2"

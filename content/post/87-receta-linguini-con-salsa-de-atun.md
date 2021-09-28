@@ -43,7 +43,7 @@ tags:
 
 katakunci: linguini con salsa 
 nutrition: 187 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT35M"
 cooktime: "PT48M"
 recipeyield: "1"

@@ -36,7 +36,7 @@ tags:
 
 katakunci: croquetas de patata 
 nutrition: 204 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT34M"
 cooktime: "PT38M"
 recipeyield: "4"

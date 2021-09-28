@@ -39,7 +39,7 @@ tags:
 
 katakunci: hambuguesitas de patata 
 nutrition: 280 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT18M"
 cooktime: "PT31M"
 recipeyield: "3"

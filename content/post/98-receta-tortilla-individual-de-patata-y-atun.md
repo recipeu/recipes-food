@@ -32,7 +32,7 @@ tags:
 
 katakunci: tortilla individual de 
 nutrition: 105 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT27M"
 cooktime: "PT50M"
 recipeyield: "2"

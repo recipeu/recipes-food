@@ -33,7 +33,7 @@ tags:
 
 katakunci: arroz con atn 
 nutrition: 157 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT12M"
 cooktime: "PT45M"
 recipeyield: "3"

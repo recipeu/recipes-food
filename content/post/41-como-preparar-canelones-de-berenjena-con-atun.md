@@ -42,7 +42,7 @@ tags:
 
 katakunci: canelones de berenjena 
 nutrition: 188 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT23M"
 cooktime: "PT57M"
 recipeyield: "1"

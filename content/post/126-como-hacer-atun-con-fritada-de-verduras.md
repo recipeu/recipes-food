@@ -31,7 +31,7 @@ tags:
 
 katakunci: atn con fritada 
 nutrition: 292 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT38M"
 recipeyield: "1"

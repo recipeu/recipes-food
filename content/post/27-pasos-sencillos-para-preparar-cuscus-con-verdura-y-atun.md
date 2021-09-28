@@ -33,7 +33,7 @@ tags:
 
 katakunci: cuscs con verdura 
 nutrition: 228 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT32M"
 recipeyield: "4"

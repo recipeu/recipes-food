@@ -36,7 +36,7 @@ tags:
 
 katakunci: spaghetti con shiitake 
 nutrition: 232 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT26M"
 cooktime: "PT49M"
 recipeyield: "1"

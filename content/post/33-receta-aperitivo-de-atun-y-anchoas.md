@@ -36,7 +36,7 @@ tags:
 
 katakunci: aperitivo de atn 
 nutrition: 129 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT53M"
 recipeyield: "4"

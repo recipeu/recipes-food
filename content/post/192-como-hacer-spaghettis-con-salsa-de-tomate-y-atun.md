@@ -34,7 +34,7 @@ tags:
 
 katakunci: spaghettis con salsa 
 nutrition: 283 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT38M"
 cooktime: "PT40M"
 recipeyield: "1"

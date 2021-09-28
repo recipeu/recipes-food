@@ -33,7 +33,7 @@ tags:
 
 katakunci: tortilla de calabacn 
 nutrition: 132 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT60M"
 recipeyield: "3"

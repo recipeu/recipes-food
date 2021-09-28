@@ -36,7 +36,7 @@ tags:
 
 katakunci: ensalada de pimientos 
 nutrition: 116 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT17M"
 cooktime: "PT31M"
 recipeyield: "2"

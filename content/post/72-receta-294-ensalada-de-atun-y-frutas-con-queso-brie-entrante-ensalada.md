@@ -46,7 +46,7 @@ tags:
 
 katakunci: 294 ensalada de 
 nutrition: 136 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT38M"
 cooktime: "PT53M"
 recipeyield: "1"

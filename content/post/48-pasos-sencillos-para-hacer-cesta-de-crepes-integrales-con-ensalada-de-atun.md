@@ -38,7 +38,7 @@ tags:
 
 katakunci: cesta de crepes 
 nutrition: 260 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT20M"
 cooktime: "PT50M"
 recipeyield: "2"

@@ -40,7 +40,7 @@ tags:
 
 katakunci: ensalada fresca de 
 nutrition: 175 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT27M"
 cooktime: "PT55M"
 recipeyield: "4"

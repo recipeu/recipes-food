@@ -30,7 +30,7 @@ tags:
 
 katakunci: tortilla rpida de 
 nutrition: 272 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT25M"
 cooktime: "PT40M"
 recipeyield: "3"

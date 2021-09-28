@@ -33,7 +33,7 @@ tags:
 
 katakunci: pasta con atn 
 nutrition: 142 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT30M"
 recipeyield: "4"

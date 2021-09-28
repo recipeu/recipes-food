@@ -31,7 +31,7 @@ tags:
 
 katakunci: ensalada de arroz 
 nutrition: 252 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT26M"
 cooktime: "PT60M"
 recipeyield: "4"

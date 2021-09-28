@@ -43,7 +43,7 @@ tags:
 
 katakunci: pizza con verduras 
 nutrition: 268 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT17M"
 cooktime: "PT49M"
 recipeyield: "3"

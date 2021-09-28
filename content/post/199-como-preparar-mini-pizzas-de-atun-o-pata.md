@@ -30,7 +30,7 @@ tags:
 
 katakunci: mini pizzas de 
 nutrition: 251 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT33M"
 cooktime: "PT32M"
 recipeyield: "2"

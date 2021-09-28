@@ -36,7 +36,7 @@ tags:
 
 katakunci: buuelos de atn 
 nutrition: 144 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT10M"
 cooktime: "PT32M"
 recipeyield: "3"

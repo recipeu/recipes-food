@@ -29,7 +29,7 @@ tags:
 
 katakunci: tataki de atn 
 nutrition: 124 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT22M"
 cooktime: "PT59M"
 recipeyield: "1"

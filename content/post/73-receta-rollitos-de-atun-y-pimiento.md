@@ -30,7 +30,7 @@ tags:
 
 katakunci: rollitos de atn 
 nutrition: 205 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT12M"
 cooktime: "PT43M"
 recipeyield: "1"

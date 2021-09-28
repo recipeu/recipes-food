@@ -29,7 +29,7 @@ tags:
 
 katakunci: calabacn con atn 
 nutrition: 218 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT24M"
 cooktime: "PT56M"
 recipeyield: "3"

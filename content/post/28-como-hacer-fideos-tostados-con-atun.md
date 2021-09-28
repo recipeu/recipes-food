@@ -34,7 +34,7 @@ tags:
 
 katakunci: fideos tostados con 
 nutrition: 246 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT46M"
 recipeyield: "2"

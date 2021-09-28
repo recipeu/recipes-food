@@ -38,7 +38,7 @@ tags:
 
 katakunci: caneln de aguacate 
 nutrition: 111 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT43M"
 recipeyield: "2"

@@ -32,7 +32,7 @@ tags:
 
 katakunci: ensalada de garbanzos 
 nutrition: 217 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT47M"
 recipeyield: "4"

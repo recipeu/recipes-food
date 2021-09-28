@@ -32,7 +32,7 @@ tags:
 
 katakunci: atn con picada 
 nutrition: 297 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT37M"
 cooktime: "PT53M"
 recipeyield: "3"

@@ -37,7 +37,7 @@ tags:
 
 katakunci: hamburguesa de calabacn 
 nutrition: 222 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT22M"
 cooktime: "PT51M"
 recipeyield: "1"

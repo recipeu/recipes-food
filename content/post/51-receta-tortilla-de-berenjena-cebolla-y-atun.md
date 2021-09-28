@@ -38,7 +38,7 @@ tags:
 
 katakunci: tortilla de berenjena 
 nutrition: 215 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT22M"
 cooktime: "PT48M"
 recipeyield: "2"

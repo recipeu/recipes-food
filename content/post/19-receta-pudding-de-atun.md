@@ -40,7 +40,7 @@ tags:
 
 katakunci: pudding de atn 
 nutrition: 107 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT21M"
 cooktime: "PT53M"
 recipeyield: "2"

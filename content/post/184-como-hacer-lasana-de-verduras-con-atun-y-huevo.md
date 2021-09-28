@@ -51,7 +51,7 @@ tags:
 
 katakunci: lasaa de verduras 
 nutrition: 106 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT48M"
 recipeyield: "4"

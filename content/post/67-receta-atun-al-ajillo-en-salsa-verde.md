@@ -39,7 +39,7 @@ tags:
 
 katakunci: atn al ajillo 
 nutrition: 286 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT31M"
 recipeyield: "3"

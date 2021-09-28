@@ -37,7 +37,7 @@ tags:
 
 katakunci: pizza de chorizo 
 nutrition: 219 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT37M"
 cooktime: "PT41M"
 recipeyield: "2"

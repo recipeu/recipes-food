@@ -31,7 +31,7 @@ tags:
 
 katakunci: sndwich de aguacate 
 nutrition: 107 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT51M"
 recipeyield: "3"

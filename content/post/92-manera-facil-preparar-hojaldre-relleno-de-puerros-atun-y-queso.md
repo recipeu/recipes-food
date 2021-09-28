@@ -38,7 +38,7 @@ tags:
 
 katakunci: hojaldre relleno de 
 nutrition: 229 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT42M"
 recipeyield: "2"

@@ -36,7 +36,7 @@ tags:
 
 katakunci: pasta de dinosaurios 
 nutrition: 120 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT26M"
 cooktime: "PT37M"
 recipeyield: "3"

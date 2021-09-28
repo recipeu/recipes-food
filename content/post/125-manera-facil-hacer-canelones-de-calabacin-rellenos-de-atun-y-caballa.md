@@ -35,7 +35,7 @@ tags:
 
 katakunci: canelones de calabacn 
 nutrition: 193 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT14M"
 cooktime: "PT49M"
 recipeyield: "4"

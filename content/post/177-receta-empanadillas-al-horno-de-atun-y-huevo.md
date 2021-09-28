@@ -30,7 +30,7 @@ tags:
 
 katakunci: empanadillas al horno 
 nutrition: 208 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT30M"
 recipeyield: "1"

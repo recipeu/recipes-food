@@ -30,7 +30,7 @@ tags:
 
 katakunci: revuelto de atn 
 nutrition: 236 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT20M"
 cooktime: "PT45M"
 recipeyield: "1"

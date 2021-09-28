@@ -38,7 +38,7 @@ tags:
 
 katakunci: ensalada variada con 
 nutrition: 168 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT54M"
 recipeyield: "4"

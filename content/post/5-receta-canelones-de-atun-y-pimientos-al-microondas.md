@@ -40,7 +40,7 @@ tags:
 
 katakunci: canelones de atn 
 nutrition: 228 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT40M"
 cooktime: "PT36M"
 recipeyield: "1"

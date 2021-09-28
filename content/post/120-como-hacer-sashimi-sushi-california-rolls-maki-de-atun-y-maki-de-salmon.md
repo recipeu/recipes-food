@@ -46,7 +46,7 @@ tags:
 
 katakunci: sashimi sushi california 
 nutrition: 268 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT17M"
 cooktime: "PT34M"
 recipeyield: "4"

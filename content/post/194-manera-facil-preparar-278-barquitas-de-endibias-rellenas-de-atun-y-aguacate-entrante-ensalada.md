@@ -33,7 +33,7 @@ tags:
 
 katakunci: 278 barquitas de 
 nutrition: 152 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT39M"
 recipeyield: "3"

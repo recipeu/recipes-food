@@ -32,7 +32,7 @@ tags:
 
 katakunci: kebab de atn 
 nutrition: 247 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT27M"
 cooktime: "PT43M"
 recipeyield: "1"

@@ -33,7 +33,7 @@ tags:
 
 katakunci: hamburguesa de atn 
 nutrition: 296 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT37M"
 cooktime: "PT32M"
 recipeyield: "2"

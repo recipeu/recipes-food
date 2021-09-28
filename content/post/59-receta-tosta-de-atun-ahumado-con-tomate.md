@@ -29,7 +29,7 @@ tags:
 
 katakunci: tosta de atn 
 nutrition: 203 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT54M"
 recipeyield: "4"

@@ -32,7 +32,7 @@ tags:
 
 katakunci: pimientos rellenos de 
 nutrition: 282 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT15M"
 cooktime: "PT60M"
 recipeyield: "3"

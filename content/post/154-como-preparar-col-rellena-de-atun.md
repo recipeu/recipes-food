@@ -43,7 +43,7 @@ tags:
 
 katakunci: col rellena de 
 nutrition: 167 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT33M"
 cooktime: "PT46M"
 recipeyield: "1"

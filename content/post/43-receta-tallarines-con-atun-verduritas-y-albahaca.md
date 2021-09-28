@@ -37,7 +37,7 @@ tags:
 
 katakunci: tallarines con atn 
 nutrition: 246 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT46M"
 recipeyield: "3"

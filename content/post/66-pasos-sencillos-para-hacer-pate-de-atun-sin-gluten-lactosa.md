@@ -33,7 +33,7 @@ tags:
 
 katakunci: pat de atn 
 nutrition: 207 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT40M"
 recipeyield: "1"

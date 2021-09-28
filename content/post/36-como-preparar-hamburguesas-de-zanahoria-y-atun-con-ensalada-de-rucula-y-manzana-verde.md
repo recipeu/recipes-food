@@ -42,7 +42,7 @@ tags:
 
 katakunci: hamburguesas de zanahoria 
 nutrition: 277 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT34M"
 recipeyield: "1"

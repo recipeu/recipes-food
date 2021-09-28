@@ -27,7 +27,7 @@ tags:
 
 katakunci: patata cocida con 
 nutrition: 214 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT23M"
 cooktime: "PT47M"
 recipeyield: "3"

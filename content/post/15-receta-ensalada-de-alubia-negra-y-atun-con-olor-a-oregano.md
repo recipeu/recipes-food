@@ -36,7 +36,7 @@ tags:
 
 katakunci: ensalada de alubia 
 nutrition: 154 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT38M"
 cooktime: "PT37M"
 recipeyield: "2"

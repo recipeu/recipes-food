@@ -39,7 +39,7 @@ tags:
 
 katakunci: pizzas vegetal o 
 nutrition: 253 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT34M"
 recipeyield: "3"

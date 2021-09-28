@@ -38,7 +38,7 @@ tags:
 
 katakunci: bocadillos de jamn 
 nutrition: 255 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT18M"
 cooktime: "PT48M"
 recipeyield: "2"

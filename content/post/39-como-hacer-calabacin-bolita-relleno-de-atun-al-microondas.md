@@ -33,7 +33,7 @@ tags:
 
 katakunci: calabacn bolita relleno 
 nutrition: 106 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT39M"
 recipeyield: "4"

@@ -39,7 +39,7 @@ tags:
 
 katakunci: platillos de atn 
 nutrition: 136 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT26M"
 cooktime: "PT53M"
 recipeyield: "2"

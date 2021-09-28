@@ -39,7 +39,7 @@ tags:
 
 katakunci: hamburguesas fit de 
 nutrition: 284 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT10M"
 cooktime: "PT46M"
 recipeyield: "1"

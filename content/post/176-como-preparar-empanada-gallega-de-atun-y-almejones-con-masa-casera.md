@@ -53,7 +53,7 @@ tags:
 
 katakunci: empanada gallega de 
 nutrition: 176 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT12M"
 cooktime: "PT35M"
 recipeyield: "2"

@@ -39,7 +39,7 @@ tags:
 
 katakunci: macarrones con gambas 
 nutrition: 220 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT17M"
 cooktime: "PT48M"
 recipeyield: "4"

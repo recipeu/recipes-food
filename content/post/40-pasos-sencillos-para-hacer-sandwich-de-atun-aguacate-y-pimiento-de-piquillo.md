@@ -33,7 +33,7 @@ tags:
 
 katakunci: sndwich de atn 
 nutrition: 146 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT21M"
 cooktime: "PT54M"
 recipeyield: "2"

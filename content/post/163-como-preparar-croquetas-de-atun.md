@@ -42,7 +42,7 @@ tags:
 
 katakunci: croquetas de atn 
 nutrition: 204 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT30M"
 cooktime: "PT51M"
 recipeyield: "2"

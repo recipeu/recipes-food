@@ -38,7 +38,7 @@ tags:
 
 katakunci: tartar de tomate 
 nutrition: 250 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT25M"
 cooktime: "PT44M"
 recipeyield: "3"

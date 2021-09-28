@@ -33,7 +33,7 @@ tags:
 
 katakunci: fideos con zanahoria 
 nutrition: 169 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT40M"
 cooktime: "PT30M"
 recipeyield: "4"

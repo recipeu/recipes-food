@@ -41,7 +41,7 @@ tags:
 
 katakunci: tartar de atn 
 nutrition: 261 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT60M"
 recipeyield: "1"

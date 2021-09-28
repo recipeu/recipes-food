@@ -49,7 +49,7 @@ tags:
 
 katakunci: empanada de atn 
 nutrition: 120 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT58M"
 recipeyield: "4"

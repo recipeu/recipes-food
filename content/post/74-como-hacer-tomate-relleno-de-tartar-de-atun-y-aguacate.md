@@ -33,7 +33,7 @@ tags:
 
 katakunci: tomate relleno de 
 nutrition: 167 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT23M"
 cooktime: "PT32M"
 recipeyield: "3"

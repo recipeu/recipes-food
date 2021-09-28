@@ -31,7 +31,7 @@ tags:
 
 katakunci: atn en salsa 
 nutrition: 232 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT23M"
 cooktime: "PT47M"
 recipeyield: "3"

@@ -37,7 +37,7 @@ tags:
 
 katakunci: rollos de col 
 nutrition: 231 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT40M"
 cooktime: "PT31M"
 recipeyield: "3"

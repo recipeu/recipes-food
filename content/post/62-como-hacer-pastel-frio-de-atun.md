@@ -36,7 +36,7 @@ tags:
 
 katakunci: pastel fro de 
 nutrition: 280 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT15M"
 cooktime: "PT35M"
 recipeyield: "1"

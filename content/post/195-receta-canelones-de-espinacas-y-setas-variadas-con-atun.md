@@ -46,7 +46,7 @@ tags:
 
 katakunci: canelones de espinacas 
 nutrition: 132 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT48M"
 recipeyield: "3"

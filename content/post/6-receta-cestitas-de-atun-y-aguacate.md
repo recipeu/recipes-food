@@ -31,7 +31,7 @@ tags:
 
 katakunci: cestitas de atn 
 nutrition: 223 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT11M"
 cooktime: "PT31M"
 recipeyield: "3"

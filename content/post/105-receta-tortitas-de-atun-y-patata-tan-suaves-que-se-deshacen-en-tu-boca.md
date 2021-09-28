@@ -38,7 +38,7 @@ tags:
 
 katakunci: tortitas de atn 
 nutrition: 256 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT34M"
 cooktime: "PT55M"
 recipeyield: "3"

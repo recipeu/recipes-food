@@ -34,7 +34,7 @@ tags:
 
 katakunci: bolitas de arroz 
 nutrition: 188 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT40M"
 cooktime: "PT30M"
 recipeyield: "3"

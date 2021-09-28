@@ -34,7 +34,7 @@ tags:
 
 katakunci: espaguetis con atn 
 nutrition: 112 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT15M"
 cooktime: "PT30M"
 recipeyield: "1"

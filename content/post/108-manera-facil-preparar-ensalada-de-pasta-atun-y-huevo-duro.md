@@ -33,7 +33,7 @@ tags:
 
 katakunci: ensalada de pasta 
 nutrition: 300 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT37M"
 cooktime: "PT50M"
 recipeyield: "1"

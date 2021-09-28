@@ -38,7 +38,7 @@ tags:
 
 katakunci: ensalada de pulpo 
 nutrition: 197 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT30M"
 cooktime: "PT43M"
 recipeyield: "1"

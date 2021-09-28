@@ -38,7 +38,7 @@ tags:
 
 katakunci: macarrones con tomate 
 nutrition: 127 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT43M"
 recipeyield: "3"

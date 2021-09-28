@@ -38,7 +38,7 @@ tags:
 
 katakunci: patata majada con 
 nutrition: 161 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT23M"
 cooktime: "PT30M"
 recipeyield: "3"

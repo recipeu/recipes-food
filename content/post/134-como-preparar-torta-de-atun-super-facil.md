@@ -43,7 +43,7 @@ tags:
 
 katakunci: torta de atn 
 nutrition: 197 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT39M"
 cooktime: "PT37M"
 recipeyield: "4"

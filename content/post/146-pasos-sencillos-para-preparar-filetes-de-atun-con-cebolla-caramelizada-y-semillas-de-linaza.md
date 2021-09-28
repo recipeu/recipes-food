@@ -30,7 +30,7 @@ tags:
 
 katakunci: filetes de atn 
 nutrition: 170 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT37M"
 cooktime: "PT48M"
 recipeyield: "1"

@@ -34,7 +34,7 @@ tags:
 
 katakunci: pizza fra de 
 nutrition: 212 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT10M"
 cooktime: "PT34M"
 recipeyield: "3"

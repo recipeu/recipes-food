@@ -34,7 +34,7 @@ tags:
 
 katakunci: atn con pimientos 
 nutrition: 258 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT47M"
 recipeyield: "2"

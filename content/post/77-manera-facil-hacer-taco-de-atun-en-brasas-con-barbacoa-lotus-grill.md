@@ -31,7 +31,7 @@ tags:
 
 katakunci: taco de atn 
 nutrition: 251 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT35M"
 recipeyield: "2"

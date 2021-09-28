@@ -36,7 +36,7 @@ tags:
 
 katakunci: bocadillos de atn 
 nutrition: 285 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT57M"
 recipeyield: "4"

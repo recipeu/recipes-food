@@ -34,7 +34,7 @@ tags:
 
 katakunci: ensaladilla con atn 
 nutrition: 220 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT10M"
 cooktime: "PT51M"
 recipeyield: "4"

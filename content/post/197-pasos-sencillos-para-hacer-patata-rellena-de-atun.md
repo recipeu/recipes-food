@@ -34,7 +34,7 @@ tags:
 
 katakunci: patata rellena de 
 nutrition: 190 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT17M"
 cooktime: "PT34M"
 recipeyield: "1"

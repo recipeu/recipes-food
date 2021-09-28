@@ -46,7 +46,7 @@ tags:
 
 katakunci: poke de atn 
 nutrition: 265 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT34M"
 recipeyield: "2"

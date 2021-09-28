@@ -39,7 +39,7 @@ tags:
 
 katakunci: rollitos rpidos de 
 nutrition: 134 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT34M"
 cooktime: "PT59M"
 recipeyield: "2"

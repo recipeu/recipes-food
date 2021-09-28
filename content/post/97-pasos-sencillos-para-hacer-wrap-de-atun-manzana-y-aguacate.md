@@ -32,7 +32,7 @@ tags:
 
 katakunci: wrap de atn 
 nutrition: 108 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT18M"
 cooktime: "PT45M"
 recipeyield: "4"

@@ -42,7 +42,7 @@ tags:
 
 katakunci: pizzas caseras de 
 nutrition: 253 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT40M"
 cooktime: "PT31M"
 recipeyield: "4"

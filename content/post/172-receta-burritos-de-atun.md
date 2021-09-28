@@ -39,7 +39,7 @@ tags:
 
 katakunci: burritos de atn 
 nutrition: 280 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT24M"
 cooktime: "PT59M"
 recipeyield: "4"

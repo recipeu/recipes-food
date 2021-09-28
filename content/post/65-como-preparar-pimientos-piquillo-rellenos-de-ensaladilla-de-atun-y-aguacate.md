@@ -30,7 +30,7 @@ tags:
 
 katakunci: pimientos piquillo rellenos 
 nutrition: 205 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT50M"
 recipeyield: "4"

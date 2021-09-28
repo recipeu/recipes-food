@@ -35,7 +35,7 @@ tags:
 
 katakunci: sndwich  de 
 nutrition: 166 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT28M"
 cooktime: "PT37M"
 recipeyield: "1"

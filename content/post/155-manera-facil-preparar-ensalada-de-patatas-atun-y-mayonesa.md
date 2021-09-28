@@ -39,7 +39,7 @@ tags:
 
 katakunci: ensalada de patatas 
 nutrition: 234 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT26M"
 cooktime: "PT53M"
 recipeyield: "2"

@@ -34,7 +34,7 @@ tags:
 
 katakunci: atn encebollado 
 nutrition: 174 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT38M"
 cooktime: "PT31M"
 recipeyield: "1"

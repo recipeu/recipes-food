@@ -38,7 +38,7 @@ tags:
 
 katakunci: pasta de coditos 
 nutrition: 102 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT41M"
 recipeyield: "4"

@@ -33,7 +33,7 @@ tags:
 
 katakunci: empanadilla de atn 
 nutrition: 251 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT33M"
 cooktime: "PT34M"
 recipeyield: "2"

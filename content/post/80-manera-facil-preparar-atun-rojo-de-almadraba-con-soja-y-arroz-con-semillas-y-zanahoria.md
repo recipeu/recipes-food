@@ -40,7 +40,7 @@ tags:
 
 katakunci: atn rojo de 
 nutrition: 142 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT25M"
 cooktime: "PT54M"
 recipeyield: "2"

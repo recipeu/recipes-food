@@ -38,7 +38,7 @@ tags:
 
 katakunci: atn fresco con 
 nutrition: 259 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT56M"
 recipeyield: "3"

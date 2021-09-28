@@ -31,7 +31,7 @@ tags:
 
 katakunci: huevos rellenos de 
 nutrition: 277 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT39M"
 cooktime: "PT34M"
 recipeyield: "1"

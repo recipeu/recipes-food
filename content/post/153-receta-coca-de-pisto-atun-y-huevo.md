@@ -37,7 +37,7 @@ tags:
 
 katakunci: coca de pisto 
 nutrition: 142 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT29M"
 cooktime: "PT33M"
 recipeyield: "2"

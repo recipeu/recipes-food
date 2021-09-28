@@ -39,7 +39,7 @@ tags:
 
 katakunci: tortitas de jamn 
 nutrition: 165 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT37M"
 cooktime: "PT43M"
 recipeyield: "4"

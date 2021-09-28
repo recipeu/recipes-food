@@ -36,7 +36,7 @@ tags:
 
 katakunci: timbal de verduras 
 nutrition: 153 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT45M"
 recipeyield: "1"

@@ -37,7 +37,7 @@ tags:
 
 katakunci: omelette de atn 
 nutrition: 113 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT49M"
 recipeyield: "4"

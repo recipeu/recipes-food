@@ -42,7 +42,7 @@ tags:
 
 katakunci: calzones vegetales y 
 nutrition: 137 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT54M"
 recipeyield: "2"

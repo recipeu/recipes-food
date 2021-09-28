@@ -40,7 +40,7 @@ tags:
 
 katakunci: empanada casera de 
 nutrition: 197 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT20M"
 cooktime: "PT38M"
 recipeyield: "1"

@@ -35,7 +35,7 @@ tags:
 
 katakunci: pastel rpido y 
 nutrition: 145 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT34M"
 cooktime: "PT47M"
 recipeyield: "2"

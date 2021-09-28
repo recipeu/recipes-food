@@ -28,7 +28,7 @@ tags:
 
 katakunci: ensalada de champin 
 nutrition: 128 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT20M"
 cooktime: "PT44M"
 recipeyield: "3"

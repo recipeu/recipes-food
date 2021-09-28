@@ -37,7 +37,7 @@ tags:
 
 katakunci: ensalada de tomate 
 nutrition: 251 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT18M"
 cooktime: "PT53M"
 recipeyield: "4"

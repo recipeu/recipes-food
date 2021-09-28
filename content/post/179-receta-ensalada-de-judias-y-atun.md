@@ -38,7 +38,7 @@ tags:
 
 katakunci: ensalada de judas 
 nutrition: 136 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT16M"
 cooktime: "PT58M"
 recipeyield: "3"

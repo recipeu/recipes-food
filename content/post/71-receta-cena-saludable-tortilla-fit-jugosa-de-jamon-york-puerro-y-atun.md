@@ -32,7 +32,7 @@ tags:
 
 katakunci: cena saludable tortilla 
 nutrition: 177 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT30M"
 recipeyield: "4"

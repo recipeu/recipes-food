@@ -37,7 +37,7 @@ tags:
 
 katakunci: ensalada de verano 
 nutrition: 153 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT13M"
 cooktime: "PT46M"
 recipeyield: "3"

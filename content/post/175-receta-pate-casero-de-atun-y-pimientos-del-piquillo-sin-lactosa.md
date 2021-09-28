@@ -28,7 +28,7 @@ tags:
 
 katakunci: pat casero de 
 nutrition: 265 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT50M"
 recipeyield: "2"

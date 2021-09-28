@@ -28,7 +28,7 @@ tags:
 
 katakunci: pasta con brcoli 
 nutrition: 121 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT50M"
 recipeyield: "2"

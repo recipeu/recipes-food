@@ -38,7 +38,7 @@ tags:
 
 katakunci: cenando anchoas y 
 nutrition: 125 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT34M"
 cooktime: "PT57M"
 recipeyield: "4"

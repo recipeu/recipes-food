@@ -29,7 +29,7 @@ tags:
 
 katakunci: arroz con garbanzos 
 nutrition: 132 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT18M"
 cooktime: "PT35M"
 recipeyield: "1"

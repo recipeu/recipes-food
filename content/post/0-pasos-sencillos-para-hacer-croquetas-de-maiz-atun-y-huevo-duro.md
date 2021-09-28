@@ -40,7 +40,7 @@ tags:
 
 katakunci: croquetas de maz 
 nutrition: 165 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT20M"
 cooktime: "PT46M"
 recipeyield: "4"

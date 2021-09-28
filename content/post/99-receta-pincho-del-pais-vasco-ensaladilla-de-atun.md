@@ -33,7 +33,7 @@ tags:
 
 katakunci: pincho del pas 
 nutrition: 243 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT11M"
 cooktime: "PT37M"
 recipeyield: "1"

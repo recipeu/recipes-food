@@ -33,7 +33,7 @@ tags:
 
 katakunci: berenjenas rellenas de 
 nutrition: 129 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT40M"
 cooktime: "PT53M"
 recipeyield: "1"

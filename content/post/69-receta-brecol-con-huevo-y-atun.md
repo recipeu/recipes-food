@@ -31,7 +31,7 @@ tags:
 
 katakunci: brcol con huevo 
 nutrition: 279 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT11M"
 cooktime: "PT45M"
 recipeyield: "4"

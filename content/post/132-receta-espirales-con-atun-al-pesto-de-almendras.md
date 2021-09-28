@@ -44,7 +44,7 @@ tags:
 
 katakunci: espirales con atn 
 nutrition: 130 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT15M"
 cooktime: "PT54M"
 recipeyield: "1"

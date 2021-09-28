@@ -32,7 +32,7 @@ tags:
 
 katakunci: revuelto rpido de 
 nutrition: 206 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT38M"
 cooktime: "PT56M"
 recipeyield: "2"

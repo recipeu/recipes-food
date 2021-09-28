@@ -44,7 +44,7 @@ tags:
 
 katakunci: ensalada de huevo 
 nutrition: 287 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT17M"
 cooktime: "PT48M"
 recipeyield: "1"

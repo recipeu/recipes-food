@@ -32,7 +32,7 @@ tags:
 
 katakunci: albndigas de atn 
 nutrition: 270 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT22M"
 cooktime: "PT47M"
 recipeyield: "1"

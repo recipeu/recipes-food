@@ -30,7 +30,7 @@ tags:
 
 katakunci: atn a la 
 nutrition: 221 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT31M"
 cooktime: "PT38M"
 recipeyield: "4"

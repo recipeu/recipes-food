@@ -36,7 +36,7 @@ tags:
 
 katakunci: poke bowl de 
 nutrition: 245 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT24M"
 cooktime: "PT35M"
 recipeyield: "4"

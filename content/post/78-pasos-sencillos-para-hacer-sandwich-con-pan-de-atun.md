@@ -30,7 +30,7 @@ tags:
 
 katakunci: sndwich con pan 
 nutrition: 120 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT22M"
 cooktime: "PT44M"
 recipeyield: "4"

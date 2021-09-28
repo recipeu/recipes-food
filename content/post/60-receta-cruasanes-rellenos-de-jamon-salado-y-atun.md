@@ -37,7 +37,7 @@ tags:
 
 katakunci: cruasanes rellenos de 
 nutrition: 157 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT21M"
 cooktime: "PT32M"
 recipeyield: "3"

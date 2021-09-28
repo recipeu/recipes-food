@@ -34,7 +34,7 @@ tags:
 
 katakunci: hamburguesa de berenjena 
 nutrition: 239 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT32M"
 cooktime: "PT43M"
 recipeyield: "2"

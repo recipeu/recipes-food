@@ -40,7 +40,7 @@ tags:
 
 katakunci: san jacobo de 
 nutrition: 288 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT19M"
 cooktime: "PT43M"
 recipeyield: "2"

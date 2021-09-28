@@ -41,7 +41,7 @@ tags:
 
 katakunci: radiatori en salsa 
 nutrition: 291 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT31M"
 cooktime: "PT50M"
 recipeyield: "3"

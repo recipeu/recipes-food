@@ -36,7 +36,7 @@ tags:
 
 katakunci: espaguetis de calabacn 
 nutrition: 298 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT39M"
 cooktime: "PT47M"
 recipeyield: "4"

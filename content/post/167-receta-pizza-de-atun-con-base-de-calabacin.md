@@ -38,7 +38,7 @@ tags:
 
 katakunci: pizza de atn 
 nutrition: 184 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT36M"
 cooktime: "PT37M"
 recipeyield: "2"

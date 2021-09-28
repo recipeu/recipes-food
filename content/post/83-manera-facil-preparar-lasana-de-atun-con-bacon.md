@@ -51,7 +51,7 @@ tags:
 
 katakunci: lasaa de atn 
 nutrition: 127 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT11M"
 cooktime: "PT37M"
 recipeyield: "4"

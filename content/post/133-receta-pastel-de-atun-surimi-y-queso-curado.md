@@ -33,7 +33,7 @@ tags:
 
 katakunci: pastel de atn 
 nutrition: 102 calories
-recipecuisine: Spainish
+recipecuisine: Spanish
 preptime: "PT27M"
 cooktime: "PT41M"
 recipeyield: "1"
