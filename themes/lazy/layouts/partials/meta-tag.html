@@ -1,0 +1,66 @@
+{{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" href="{{ .RelPermalink | absURL }}" type="application/rss+xml" title="RSS">
+  {{ end }}
+
+  {{ hugo.Generator }}
+  <meta name="theme-color" content="#0c120c">
+ {{ $hom := .Site.BaseURL }}
+  <meta name="turbo-root" content="{{ $hom }}">
+  <!-- open graph meta tags -->
+  <meta property="og:title" content="{{ .Title }}">
+  {{ with .Page.Params.description }}
+  <meta property="og:description" content="{{ . }}">
+  {{ end }}
+  {{ if and (.Page.Params.thumbnail) (hasPrefix .Page.Params.thumbnail "http") }}
+  <meta property="og:image" content="{{ .Page.Params.thumbnail }}">
+  {{ else if .Page.Params.thumbnail }}
+  {{ $thumbnailImage := .Page.Resources.GetMatch (printf "*%s*" .Page.Params.thumbnail) }}
+
+    {{ if eq $thumbnailImage.ResourceType "image" }}
+    <meta property="og:image" content="{{ $thumbnailImage.Permalink }}">
+    <meta property="og:image:width" content="{{ $thumbnailImage.Width }}">
+    <meta property="og:image:height" content="{{ $thumbnailImage.Height }}">
+    {{ end }}
+  {{ else }}
+  <meta property="og:image" content="{{ .Site.Params.thumbnail }}">
+  {{ end }}
+  <meta property="og:image:alt" content="{{ .Title }}">
+
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="">
+  <meta property="og:type" content="article">
+
+  <meta property="fb:admins" content="1007588651">
+  <meta property="fb:app_id" content="127330613993014">
+  <meta property="article:author" content="https://www.facebook.com/armno">
+  <meta property="article:publisher" content="https://www.facebook.com/armno.in.th">
+  {{ range .Params.tags }}
+  <meta property="article:tag" content="{{ . }}">{{ end }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z0700" }}">
+  {{ range .Params.categories }}
+  <meta property="article:section" content="{{ . }}">{{ end }}
+
+  <!-- twitter card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@armno">
+  <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
+  <meta name="twitter:creator" content="@armno">
+  <meta name="twitter:url" content="{{ .Permalink }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  {{ with .Site.Params.description }}
+  <meta name="twitter:description" content="{{ . }}">
+  {{ end }}
+
+  <!-- ignore tags page from being indexed -->
+  {{ if or (eq .Type "tags") (eq .Type "categories") }}
+  <meta name="robots" content="noindex, follow">
+  {{ else }}
+  <meta name="robots" content="index, follow">
+  {{ end }}
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | absURL }}" type="image/x-icon">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ .Permalink }}">

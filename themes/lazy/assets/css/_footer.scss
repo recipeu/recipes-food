@@ -12,7 +12,9 @@
     & > div {
       display: flex;
       align-items: center;
-
+      ul li {
+        display: inline-flex;
+      }
       a {
         margin-bottom: 0;
         padding-left: 5px;

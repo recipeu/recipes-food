@@ -96,11 +96,11 @@ ul li {
 }
 
 ul:not(.no-list-style):not(.pagination) > li::before {
-  content: ' ';
+  content: none;
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  display: block;
+  display: inline-flex;
   position: absolute;
   left: -1em;
   top: 0.6em;
