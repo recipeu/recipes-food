@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  text-align: left;
 
   @include medium() {
     flex-direction: row;
