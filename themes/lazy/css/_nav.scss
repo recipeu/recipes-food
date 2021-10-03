@@ -108,7 +108,7 @@
   font-family: $heading-fonts;
   line-height: 2;
   align-items: center;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
 
   @include medium() {
     font-size: 0.9rem;
